@@ -1,14 +1,11 @@
 # Create linux-commands-cheatsheet.md using pypandoc
 
-import pypandoc
-
-content = """
-# 🐧 Linux Commands Cheat Sheet
+# Linux Commands Cheat Sheet
 **Process Management | File System | Networking Troubleshooting**
 
 ---
 
-## 📌 1️⃣ Process Management
+## 1. Process Management
 
 | Command | Usage |
 |---------|-------|
@@ -29,7 +26,7 @@ content = """
 
 ---
 
-## 📁 2️⃣ File System & File Management
+## 2. File System & File Management
 
 | Command | Usage |
 |---------|-------|
@@ -54,7 +51,7 @@ content = """
 
 ---
 
-## 🌐 3️⃣ Networking & Troubleshooting
+## 3. Networking & Troubleshooting
 
 | Command | Usage |
 |---------|-------|
@@ -75,7 +72,7 @@ content = """
 
 ---
 
-## 🔥 Common Debugging Combos
+##  Common Debugging Combos
 
 ```bash
 ps aux | grep nginx
