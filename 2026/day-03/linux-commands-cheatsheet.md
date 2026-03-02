@@ -1,4 +1,3 @@
-# Create linux-commands-cheatsheet.md using pypandoc
 
 # Linux Commands Cheat Sheet
 **Process Management | File System | Networking Troubleshooting**
