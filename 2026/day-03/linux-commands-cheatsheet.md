@@ -79,3 +79,11 @@ tail -f /var/log/syslog
 df -h | grep /dev
 ss -tulnp | grep 80
 curl -I https://google.com
+
+## Core Commands to Master
+
+-   Process: `ps`, `top`, `kill`
+-   Files: `ls`, `find`, `chmod`
+-   Network: `ip`, `ping`, `curl`, `ss`
+-   Disk/Memory: `df`, `du`, `free`
+
