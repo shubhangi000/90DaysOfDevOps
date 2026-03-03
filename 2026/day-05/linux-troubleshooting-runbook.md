@@ -25,7 +25,7 @@ Observation: Kernel version and architecture confirmed (x86_64).
 cat /etc/os-release
 ```
 
-Observation: Running Ubuntu 22.04 LTS.
+Observation: Running Ubuntu 24.04 LTS.
 
 ---
 
@@ -55,6 +55,8 @@ Observation: CPU usage under 10%, memory stable, no abnormal spikes.
 
 ```bash
 ps -o pid,pcpu,pmem,comm -C nginx
+or
+ps -o pid,pcpu,pmem,comm -p 593
 ```
 
 Observation: Master and worker processes running. CPU and memory usage minimal.
@@ -102,7 +104,7 @@ Observation: Nginx listening on port 80 (HTTP). Port binding correct.
 ### 8. HTTP Response Check
 
 ```bash
-curl -I http://localhost
+curl -I http://13.232.121.83/
 ```
 
 Observation: HTTP/1.1 200 OK returned. Service responding correctly.
@@ -153,7 +155,7 @@ System health appears stable.
 
 3. Capture deeper diagnostics:
 
-   * `sudo strace -p <nginx-pid>`
+   * `sudo strace -p 593`
    * `sudo tcpdump -i any port 80`
    * Enable extended monitoring (CloudWatch / metrics)
 
