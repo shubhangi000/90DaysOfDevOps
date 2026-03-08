@@ -1,0 +1,59 @@
+Most production outages are not caused by code.
+They’re caused by **misconfigured permissions and access control.**
+
+🚀 **Day 09 – Linux User & Group Management | #90DaysOfDevOps**
+
+Today’s challenge focused on one of the most fundamental skills in Linux system administration: **managing users, groups, and shared permissions**.
+
+In real production environments, servers are accessed by multiple developers, DevOps engineers, and automation systems. Properly configuring **who can access what** is critical for both **security and collaboration**.
+
+🔧 **What I practiced today**
+
+👤 **User Management**
+
+* Created multiple users with home directories
+* Set secure passwords
+* Verified system entries in `/etc/passwd`
+
+👥 **Group Management**
+
+* Created role-based groups: `developers` and `admins`
+* Assigned users to groups using `usermod -aG`
+* Verified memberships using `groups` and `/etc/group`
+
+📂 **Shared Team Directories**
+
+* Created shared directories inside `/opt`
+* Configured group ownership
+* Applied correct permissions (`775`) for collaborative access
+
+🧪 **Access Testing**
+
+* Switched between users using `su`
+* Verified that multiple users could create files in shared directories based on group permissions
+
+💡 **Key Takeaways**
+
+✔ Linux permissions are the **foundation of server security**
+✔ Groups simplify **team-level access control**
+✔ Shared directories require correct **ownership + permission configuration**
+✔ Understanding `/etc/passwd` and `/etc/group` is essential for troubleshooting access issues
+
+This challenge helped me think beyond development and start thinking like a **DevOps engineer responsible for production infrastructure**.
+
+Day **9/90** complete. Staying consistent and learning in public.
+
+💬 **Question for DevOps engineers:**
+What’s your preferred way to manage shared team directories in Linux?
+
+• Standard group permissions
+• ACLs (Access Control Lists)
+• Another approach?
+
+Would love to hear your experience.
+
+#90DaysOfDevOps
+#DevOpsKaJosh
+#TrainWithShubham 
+#DevOps #Linux 
+#CloudComputing #AWS 
