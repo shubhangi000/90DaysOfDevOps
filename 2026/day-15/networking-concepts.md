@@ -385,6 +385,3 @@ In the current Linux environment, advanced networking tools (dig, nslookup, ip, 
 
 ---
 
-**Document Created:** 2026  
-**Challenge:** 90DaysOfDevOps - Day 15 Networking Concepts  
-**Status:** ✅ Complete
